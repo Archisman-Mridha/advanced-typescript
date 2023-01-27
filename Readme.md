@@ -10,7 +10,7 @@ Learning advanced advanced typescript concepts ! Here are the resources I have u
 
 > When you don't have a complete idea about the type that you will be dealing with, you should use generics.
 
-Consider, you have 2 interfaces, **Animal** and **Human**. You want to create a function *`getDisplayName`* that returns *{ animalName: name of the animal }* if the subject is **Animal** and *{ humanName: first and last names concatenated }* if the subject is **Human**. You can use generics in this scenario like this -
+Consider, you have 2 interfaces, **Animal** and **Human**. You want to create a function **`getDisplayName`** that returns `{ animalName: name of the animal }` if the subject is **Animal** and `{ humanName: first and last names concatenated }` if the subject is **Human**. You can use generics in this scenario like this -
 
 ```ts
 interface Animal {
